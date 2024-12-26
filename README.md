@@ -21,7 +21,7 @@ coming soon
 
 ## Elevator System
 
-The second project in this repository is an Elevator System. This system simulates an elevator control system in a multi-floor building. It demonstrates:
+The first project in this repository is an Elevator System. This system simulates an elevator control system in a multi-floor building. It demonstrates:
 
 - Multi-Elevator Management: Manages multiple elevators within a single building.
 - Request Handling: Processes floor requests and assigns the most suitable elevator based on proximity and current direction.
@@ -35,8 +35,19 @@ The second project in this repository is an Elevator System. This system simulat
 - Manage elevator movement and optimize direction changes based on requests and destinations.
 
 ## Library Management System
+The second project in this repository is a Library Management System. This system simulates a library where members can borrow and return books. It demonstrates:
 
-coming soon
+- Singleton design pattern for managing the library instance.
+- Book management with support for multiple copies of each book.
+- Member management, including borrowing history and borrowing limits.
+- Concurrency control to handle multiple borrow and return requests simultaneously.
+
+### Features
+
+- Add and remove books from the library collection.
+- Allow members to borrow and return books, with automatic status updates.
+- Check book availability and member borrowing quoto limit.
+- Maintain a history of borrowed books for each member.
 
 ## Vending Machine System
 
