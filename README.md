@@ -55,7 +55,19 @@ coming soon
 
 ## Social Media Platform
 
-coming soon
+The fifth project in this repository is a **Social Media Platform**. This system simulates a basic social media platform where users can connect, create posts, interact with posts, and view activity feeds. It demonstrates:
+
+- **Facade Pattern**: Simplifies user interaction with various social media functionalities (e.g., managing users, posts, friendships) through a unified interface.
+- **User and Post Management**: Allows the creation and management of users, posts, comments, and likes, encapsulated in dedicated manager classes.
+- **Concurrency Control**: Manages concurrent operations such as posting, commenting, and friend requests using synchronization techniques.
+  
+### Features
+
+- **User Registration and Profile Management**: Users can register on the platform with profile details, add a profile bio, and edit their information.
+- **Posting and Feed System**: Users can create posts and see posts from their friends in their feed.
+- **Friendship System**: Users can send and accept friend requests, and posts from friends are included in their feeds.
+- **Post Interactions**: Users can like and comment on posts from other users. The number of likes and all comments are viewable on each post.
+- **Feed Management**: Users can view a personalized feed of posts from their friends, sorted to display recent posts first.
   
 ### Implementation Highlights
 
